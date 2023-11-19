@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  --logo-size: 170px;
+}
+
+body {
+  background-color: rgb(229, 178, 111);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.logo {
+  width: var(--logo-size);
+  height: var(--logo-size);
+
+  margin-top: 10px;
+  border-radius: 100%;
+  border-style: dashed;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+  padding: 0px;
+}
+
+li {
+  display: inline;
+  margin-right: 100px;
+}
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  margin-top: 50px;
+}
+nav {
+  margin-bottom: 15px;
+  text-decoration-line: underline;
+}
+a:hover {
+  color: rgb(112, 71, 25);
+}
+li:last-child {
+  margin-right: 0px;
+}
+.section-1 {
+  height: 640px;
+  background-image: url(../img/photo10.jpg);
+  background-size: cover;
+  margin-top: 20px;
+  position: relative;
+  margin-bottom: 20px;
+}
+.section_block {
+  width: 420px;
+  height: 190px;
+  background: linear-gradient(
+    180deg,
+    rgba(244, 213, 178, 0.8) 0%,
+    rgba(234, 156, 65, 0.8) 100%
+  );
+  position: absolute;
+  top: 349px;
+  left: 730px;
+  text-align: center;
+  padding-top: 15px;
+  margin-left: 300px;
+}
+.section_border {
+  width: 390px;
+  height: 160px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+.title {
+  font: size 36px;
+  color: rgb(100, 57, 5);
+}
+.text {
+  font-size: 15px;
+  color: rgb(100, 57, 5);
+}
+.section-2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.section_box img {
+  margin-right: 76px;
+  margin-bottom: 20px;
+}
+.section_box img:last-child {
+  margin-right: 0px;
+}
+.h2 {
+  font-size: 96px;
+  margin: 0px;
+  padding-left: 51px;
+}
+.section_color {
+  color: #de692e;
+}
+.section_p {
+  font-size: 18px;
+  margin: 0px;
+  text-align: center;
+  width: 1000px;
+  margin: 0 auto;
+}
+.map {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 36px;
+}
+iframe {
+  display: block;
+  margin: 0 auto;
+}
